@@ -1,6 +1,6 @@
 
 import pygame
-from utils._utils import drawBlinkingText,countDownTimer,scrollingDilaogue,imageAnimateAdvanced,scrollingDialogueSimple
+from utils import drawBlinkingText,countDownTimer,scrollingDilaogue,imageAnimateAdvanced,scrollingDialogueSimple
 
 #  LOADS ONLY THE INCOMING NOTIFICATION, AND CANVAS
 
