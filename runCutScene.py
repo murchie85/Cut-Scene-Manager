@@ -1,6 +1,6 @@
 
 import pygame
-from utils import drawBlinkingText,countDownTimer,scrollingDilaogue,imageAnimateAdvanced,scrollingDialogueSimple
+from utils.utils import drawBlinkingText,countDownTimer,scrollingDilaogue,imageAnimateAdvanced,scrollingDialogueSimple
 
 #  LOADS ONLY THE INCOMING NOTIFICATION, AND CANVAS
 
@@ -28,8 +28,6 @@ class cutScene():
 		# OPENING SFX 
 		self.openingTimer = countDownTimer()
 		self.msgFlashtime = 3
-
-
 
 
 
